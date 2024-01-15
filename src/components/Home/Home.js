@@ -9,12 +9,15 @@ import { products } from "../Products/Products"
 
 const Home =()=>{
     return(
-        
+        <>
         <div className="homeContainer">
             <Navbar/>
             <CardContainer title={"Proyectos"} itemList={products}/>
-            <Footer/>
         </div>
+        <div className="footer">
+        <Footer/>
+        </div>
+        </>
                 
         
     )

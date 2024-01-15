@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 
 const Footer = () =>{
     return (
+        <div className="footer">
         <footer id="contact">            
             <p>Formas de Contacto</p>
             <div className="footerInfo">
@@ -20,6 +21,7 @@ const Footer = () =>{
             </div>
             <p>Espero atentamente su llamado</p>
         </footer>
+        </div>
     );
   }
   
