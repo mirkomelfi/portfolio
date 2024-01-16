@@ -245,87 +245,51 @@ footer a{
         margin-top: 44px;
     }
 
-   /* 
-
-#navigation ul li {
-    margin: 0 12px;
-}
-#navigation ul, #navigation li {
-    margin: 0;
-}
-.menu li {
-    float: left;
-    position: relative;
-}
-li{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    
-}
-.menu {
-    line-height: 1.0;
-}
-.menu, .sf-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-nav ul {
-    list-style: none;
+.language{
+    margin-top: 30px;
 }
 
-ul {
-    list-style-type: disc;
-}
 
-#navigation .menu {
-    display: block;
-    width: 100%;
-    float: left;
-}
-#navigation ul, #navigation li {
-    margin: 0;
-}
-.menu {
-    line-height: 1.0;
-}
-.menu, .sf-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-nav ul {
-    list-style: none;
-}
-nav ul, nav li {
-    margin: 0;
-}
+    .button {
+        height: 50px; 
+        width: 200px; 
+        position: relative;
+        font-size:larger;
+        background-color: transparent;
+        cursor: pointer;
+        border: 2px solid #252525;
+        overflow: hidden; 
+        border-radius: 30px;
+        color: #333;
+        transition: all 0.3s ease-in-out; 
+        margin: 15px;
+      }
+      
+      .btnText {
+        z-index: 1;
+        font-weight: 800;
+        letter-spacing: 4px;
+      }
+      
+      .btnPrimary::after {
+        content: "";
+        position: absolute;
+        left: 0; top: 0;
+        transition: all 0.3s ease-in-out;
+        background-color: #333;
+        border-radius: 30px; 
+        visibility: hidden;
+        height: 10px;
+        width: 10px; z-index: -1;
+      }
+      
+      .button:hover {
+        box-shadow: 1px 1px 200px #252525;
+        color: #ffffff;
+      }
+      
+      .btnPrimary:hover::after {
+        visibility: visible;
+        transform: scale(100) translateX(2px);
+      }
 
-ul{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}*/

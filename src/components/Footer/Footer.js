@@ -2,11 +2,12 @@ import React from "react";
 import { AiOutlineMessage,AiOutlineMail  } from "react-icons/ai";
 import {Link} from "react-router-dom";
 
-const Footer = () =>{
+const Footer = ({from}) =>{
     return (
         <div className="footer">
+            
         <footer id="contact">            
-            <p>Formas de Contacto</p>
+        { from==1?<p>Formas de Contacto</p>:<p>Contact</p> }
             <div className="footerInfo">
 
             
@@ -19,7 +20,7 @@ const Footer = () =>{
                 
                 
             </div>
-            <p>Espero atentamente su llamado</p>
+            { from==1?<p>Espero atentamente su llamado</p>:<p>Looking forward to hearing from you</p> }
         </footer>
         </div>
     );
